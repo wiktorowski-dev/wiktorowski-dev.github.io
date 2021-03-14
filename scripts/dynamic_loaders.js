@@ -57,7 +57,6 @@ $.ajax({
     }
 });
 
-
 // Project panel loader
 $.ajax({
     url: 'data/projects/projects.json',
@@ -109,7 +108,6 @@ $.ajax({
         }
     }
 });
-
 
 // Project panel loader
 $.ajax({
@@ -181,6 +179,26 @@ $.ajax({
             );
 
             services_source[0].children[i].getElementsByClassName('thumb')[0].setAttribute("style", "background: url(" + img + ") center center/cover")
+
+
+        }
+    }
+});
+
+// Project panel loader
+$.ajax({
+    url: 'data/footer/links.json',
+    dataType: 'json',
+    success: function(data) {
+        var footer = $('#footer-links');
+        footer.empty()
+        //you can use jquery each to append all new articles
+
+        for (let i=0; i<data.length; i++) {
+            console.log(data[i])
+            footer.append(
+                data[i]
+            );
 
 
         }
