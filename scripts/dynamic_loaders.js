@@ -113,8 +113,9 @@ $.ajax({
             var href = data[i].href
 
             blog_source.append(
-                '<a href="' + href + '" target="_blank">' +
+
                 '<div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s">' +
+                '<a href="' + href + '" target="_blank">' +
                 '<div class="fade-wrap">' +
                 '<div class="thumb"></div>' +
                 '<div class="label bold">' + title + '</div>' +
@@ -123,8 +124,8 @@ $.ajax({
                 '<div class="text">' + text +
                 '</div>' +
                 '</div>' +
-                '</div>' +
-                '</a>'
+                '</a>' +
+                '</div>'
             );
 
             blog_source[0].children[i].getElementsByClassName('thumb')[0].setAttribute("style", "background: url(" + img + ") center center/cover")
