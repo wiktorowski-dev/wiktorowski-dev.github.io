@@ -195,6 +195,9 @@ body {
   height: 100%;
   width: calc(100% * 0.57735);
 }
+#me-photo-container {
+  align-self: center;
+}
 
 .hexagon:before {
   background-color: inherit;
@@ -278,7 +281,7 @@ nav .link-wrap {
   width: 100%;
 }
 nav .link-wrap.visible {
-  height: 220px;
+  height: auto;
 }
 nav .link-wrap div {
   cursor: pointer;
