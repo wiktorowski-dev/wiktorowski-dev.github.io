@@ -1,0 +1,10 @@
+[
+  {
+    "name": "PYTHON",
+    "filter": "py"
+  },
+  {
+    "name": "DATA SCIENCE",
+    "filter": "ds"
+  }
+]

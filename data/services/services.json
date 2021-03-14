@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Web scraping",
+    "text": "Some SEO for the offer",
+    "href": "https://www.fiverr.com/wiktorowski_dev/do-a-web-scraper-for-you",
+    "img": "data/services/img/webscraping.png"
+  },
+  {
+    "title": "File conversion",
+    "text": "Some SEO for the offer",
+    "href": "https://www.fiverr.com/wiktorowski_dev/convert-transform-or-clean-any-text-file-format",
+    "img": "data/services/img/fileconversion.png"
+
+  }
+]

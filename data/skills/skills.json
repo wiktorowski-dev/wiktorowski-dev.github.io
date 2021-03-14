@@ -1,0 +1,35 @@
+[
+    {
+      "name": "Python",
+      "percent": "85"
+    },
+    {
+      "name": "JSON",
+      "percent": "85"
+    },
+    {
+      "name": "REST API",
+      "percent": "80"
+    },
+    {
+      "name": "GIT",
+      "percent": "80"
+    },
+    {
+      "name": "Linux",
+      "percent": "70"
+    },
+    {
+      "name": "Pandas",
+      "percent": "70"
+    },
+    {
+      "name": "Testing",
+      "percent": "65"
+    },
+    {
+      "name": "Tensorflow",
+      "percent": "60"
+    }
+
+  ]

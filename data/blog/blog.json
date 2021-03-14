@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Create a Simple Python GUI With These Open Source Projects",
+    "date": "NOV 19, 2020",
+    "text": "Adding a graphical interface to your new application doesn’t have to feel like pulling teeth.",
+    "img": "https://miro.medium.com/fit/c/414/310/1*QIt926h3FZ0hrUM5cbrjFg.jpeg",
+    "href": "https://medium.com/swlh/create-a-simple-python-gui-with-these-open-source-projects-7957813a107a"
+  },
+  {
+    "title": "Python Can Be Faster Than C++\n",
+    "date": "Dec 16, 2020",
+    "text": "A trick that makes Python faster more than you can imagine",
+    "img": "https://miro.medium.com/max/770/0*O-9uMKQAoldEFcg1",
+    "href": "https://medium.com/swlh/python-can-be-faster-than-c-2372c627068"
+  },
+  {
+    "title": "Exploring Map() vs. Starmap() in Python",
+    "date": "Sep 14, 2020",
+    "text": "Let’s learn about the differences",
+    "img": "https://miro.medium.com/max/700/1*Mi_KFhM0c2M6bwQd-QYEOg.jpeg",
+    "href": "https://betterprogramming.pub/exploring-map-vs-starmap-in-python-6bcf32f5fa4a"
+  },
+  {
+
+    "title": "32 Advanced Techniques for Better Python Code",
+    "date": "MARCH 4, 2020",
+    "text": "Tips for Python documentation, coding, testing, verification, and continuous integration",
+    "img": "https://miro.medium.com/max/700/1*_sydRtY-DM559T3L5cpyKg.jpeg",
+    "href": "https://betterprogramming.pub/thirty-two-advanced-techniques-for-better-python-code-6717226eb611"
+  }
+]

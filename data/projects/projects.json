@@ -1,0 +1,23 @@
+[
+  {
+    "id": "unique_id1",
+    "filter": "py",
+    "title": "example title",
+    "technology": "Python / Go",
+    "tag": "APPLICATION PERFORMANCE MONITORING.",
+    "detail": "Lorem ipsum 1",
+    "img": ["data/projects/img/p1/powur-0.jpg", "data/projects/img/p1/powur-1.jpg", "data/projects/img/p1/powur-2.jpg"],
+    "link": ""
+  },
+  {
+    "id": "unique_id2",
+    "filter": "ds",
+    "title": "example title 2",
+    "technology": "Machine Learning",
+    "tag": "Portfolio test.",
+    "detail": "Lorem ipsum 2",
+    "img": ["data/projects/img/p2/blog-1.jpg", "data/projects/img/p2/blog-2.jpg", "data/projects/img/p2/blog-3.jpg"],
+    "link": ""
+
+  }
+]
