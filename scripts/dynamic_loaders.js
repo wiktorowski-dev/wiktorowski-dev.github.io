@@ -1,19 +1,13 @@
 var data_projects = {}
 
+// Skills loader
 $.ajax({
     url: 'data/skills/skills.json',
     dataType: 'json',
     success: function(data) {
-        // console.log(data); //uncomment this for debug
-        // Triptube.dataController.timelineEvents(data);
-
-        //the element where the articles should be appended
         var el = $('#skills');
 
-        //empty this element first
         el.empty();
-
-        //you can use jquery each to append all new articles
 
         for (let i=0; i<data.length; i++) {
             var name = data[i].name
@@ -31,18 +25,15 @@ $.ajax({
     }
 });
 
-// Project panel loader
+// Filters loader
 $.ajax({
     url: 'data/projects/filters.json',
     dataType: 'json',
     success: function(data) {
-        // console.log(data); //uncomment this for debug
 
         //the element where the articles should be appended
         var first = $('#first-panel');
         var second = $('#second-panel');
-
-        //you can use jquery each to append all new articles
 
         for (let i=0; i<data.length; i++) {
             var name = data[i].name
@@ -57,16 +48,13 @@ $.ajax({
     }
 });
 
-// Project panel loader
+// Projects loader
 $.ajax({
     url: 'data/projects/projects.json',
     dataType: 'json',
     success: function(data) {
-        // console.log(data); //uncomment this for debug
-        //the element where the articles should be appended
         var gallery = $('#gallery');
         gallery.empty()
-        //you can use jquery each to append all new articles
 
         for (let i=0; i<data.length; i++) {
             var id = data[i].id
@@ -109,16 +97,13 @@ $.ajax({
     }
 });
 
-// Project panel loader
+// Blog loader
 $.ajax({
     url: 'data/blog/blog.json',
     dataType: 'json',
     success: function(data) {
-        // console.log(data); //uncomment this for debug
-        //the element where the articles should be appended
         var blog_source = $('#blog_source');
         blog_source.empty()
-        //you can use jquery each to append all new articles
 
         for (let i=0; i<data.length; i++) {
             var date = data[i].date
@@ -149,14 +134,13 @@ $.ajax({
     }
 });
 
-// Project panel loader
+// Services loader
 $.ajax({
     url: 'data/services/services.json',
     dataType: 'json',
     success: function(data) {
         var services_source = $('#services_source');
         services_source.empty()
-        //you can use jquery each to append all new articles
 
         for (let i=0; i<data.length; i++) {
             var img = data[i].img
@@ -185,14 +169,13 @@ $.ajax({
     }
 });
 
-// Project panel loader
+// Footer loader
 $.ajax({
     url: 'data/footer/links.json',
     dataType: 'json',
     success: function(data) {
         var footer = $('#footer-links');
         footer.empty()
-        //you can use jquery each to append all new articles
 
         for (let i=0; i<data.length; i++) {
             console.log(data[i])
