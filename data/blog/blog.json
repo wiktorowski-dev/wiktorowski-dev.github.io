@@ -1,10 +1,10 @@
 [
   {
-    "title": "Create a Simple Python GUI With These Open Source Projects",
-    "date": "NOV 19, 2020",
-    "text": "Adding a graphical interface to your new application doesn’t have to feel like pulling teeth.",
-    "img": "https://miro.medium.com/fit/c/414/310/1*QIt926h3FZ0hrUM5cbrjFg.jpeg",
-    "href": "https://medium.com/swlh/create-a-simple-python-gui-with-these-open-source-projects-7957813a107a"
+    "title": "Sentiment Analysis, data processing",
+    "date": "MARCH 15, 2021",
+    "text": "Technical based article about the Sentiment Analysis.",
+    "img": "https://miro.medium.com/max/2160/1*vkUG1jzB8ObVYlsZQpR25w.jpeg",
+    "href": "https://wiktorowski-dev.medium.com/sentiment-analysis-data-processing-part-1-c4387a8f3bc2"
   },
   {
     "title": "Python Can Be Faster Than C++\n",
