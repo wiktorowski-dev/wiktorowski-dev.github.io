@@ -586,6 +586,7 @@ section:nth-of-type(2) .bar:nth-child(6) .fill {
 section:nth-of-type(2) .bar:nth-child(7) .fill {
   transition: 1.7s 0.2s width ease-in-out;
 }
+
 section:nth-of-type(2) .bar:nth-child(8) .fill {
   transition: 1.8s 0.2s width ease-in-out;
 }
@@ -594,9 +595,6 @@ section:nth-of-type(2) .bar:nth-child(9) .fill {
 }
 section:nth-of-type(2) .bar:nth-child(10) .fill {
   transition: 2s 0.2s width ease-in-out;
-}
-section:nth-of-type(2) .bar span {
-  display: none;
 }
 section:nth-of-type(2) .bar.fill {
   left: 0;
@@ -962,9 +960,18 @@ footer .footnote .highlight {
   font-family: "Raleway-bold";
   padding: 5px;
 }
+
+
 @media screen and (max-width: 400px) {
   section:nth-of-type(3) #gallery .mix .card {
     width: 100vw;
+  }
+
+}
+@media screen and (max-width: 600px) {
+    section {
+      line-height: 18pt;
+      padding: 100px 0 130px 0;
   }
 }
 @media screen and (min-width: 600px) {
@@ -1052,10 +1059,6 @@ footer .footnote .highlight {
     display: none;
   }
 
-  section {
-    line-height: 18pt;
-    padding: 100px 0 130px 0;
-  }
   section .container {
     padding: 0 10px;
   }
