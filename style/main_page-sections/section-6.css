@@ -1,0 +1,89 @@
+
+.section-6 {
+  background: #252934;
+  color: #fff;
+  padding-top: 175px;
+}
+.section-6 .header {
+  color: #fff;
+}
+.section-6 .header-bar {
+  background: #fff;
+  margin: 25px 0 40px 0;
+  width: 110px;
+}
+.section-6 .highlight {
+  color: #04c2c9;
+  font-weight: 600;
+}
+.section-6 svg {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.section-6 form {
+  margin: 40px auto 0 auto;
+  min-width: 95%;
+}
+.section-6 input[type=text],
+.section-6 input[type=email],
+.section-6 textarea {
+  background: #1e242c;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 12pt;
+  margin-bottom: 3px;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+.section-6 textarea {
+  margin-bottom: 5px;
+  min-height: 150px;
+}
+.section-6 .button {
+  background: transparent;
+  color: #fff;
+  float: right;
+  font-size: 12pt;
+  margin: 5px 0 0 0;
+  outline: 0;
+  padding: 10px 30px;
+}
+.section-6 .button:hover {
+  background: #04c2c9;
+}
+.section-6 #success {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  transition: height 0.25s;
+  width: 100%;
+}
+.section-6 #success.expand {
+  height: 36px;
+}
+.section-6 #success div {
+  background: #04c986;
+  border: 1px solid #157c59;
+  color: #157051;
+  font-size: 10pt;
+  font-weight: 600;
+  padding: 5px 0;
+}
+.section-6 #close {
+  cursor: pointer;
+  font-size: 12pt;
+  font-weight: 600;
+  padding: 5px 15px;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .section-6 form {
+    min-width: 500px;
+  }
+}

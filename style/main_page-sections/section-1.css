@@ -1,0 +1,49 @@
+.section-1 {
+  color: #fff;
+  height: calc(100vh + 53px);
+  padding: 0 10px;
+}
+.section-1 .highlight {
+  font-family: "Raleway-semibold";
+}
+.section-1 .text {
+  font-size: 16pt;
+  line-height: 20pt;
+  margin: 0 0 20px 0;
+  pointer-events: none;
+  z-index: 1;
+}
+.section-1 .hexagon {
+  transition: transform 0.9s ease-in-out;
+}
+.section-1 .hexagon:hover {
+  transform: rotate(540deg);
+}
+.section-1 .button {
+  margin-bottom: 53px;
+  padding: 12px 40px 12px 15px;
+  position: relative;
+}
+.section-1 .button .mdi {
+  position: absolute;
+  right: 15px;
+  top: 11px;
+  transition: transform 0.3s;
+}
+.section-1 .button:hover .mdi {
+  transform: rotate(90deg);
+}
+
+@media screen and (min-width: 600px) {
+    .section-1 .text {
+    font-size: 32pt;
+    line-height: 36pt;
+  }
+  .section-1 .button {
+    padding: 12px 50px 12px 20px;
+  }
+  .section-1 .button .mdi {
+    /*top: 16px;*/
+
+  }
+}

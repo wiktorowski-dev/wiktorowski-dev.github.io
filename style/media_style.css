@@ -1,10 +1,3 @@
-
-@media screen and (max-width: 400px) {
-  section:nth-of-type(3) #gallery .mix .card {
-    width: 100vw;
-  }
-
-}
 @media screen and (max-width: 600px) {
     section {
       line-height: 18pt;
@@ -13,9 +6,6 @@
 
   .mdi-arrow-right {
     top: 16px;
-  }
-  section:nth-of-type(2) .hexagon i {
-    top: 18px;
   }
 }
 
@@ -71,12 +61,12 @@
   }
 
   .slide,
-.carousel-wrap {
+  .carousel-wrap {
     height: 450px;
   }
 
   .mdi-chevron-left,
-.mdi-chevron-right {
+  .mdi-chevron-right {
     font-size: 25pt !important;
   }
 
@@ -108,106 +98,6 @@
 
   section .container {
     padding: 0 10px;
-  }
-  section:nth-of-type(1) .text {
-    font-size: 32pt;
-    line-height: 36pt;
-  }
-  section:nth-of-type(1) .button {
-    padding: 12px 50px 12px 20px;
-  }
-  section:nth-of-type(1) .button .mdi {
-    /*top: 16px;*/
-
-  }
-  section:nth-of-type(2) .label-wrap .label {
-    margin: 15px 0 5px 0;
-  }
-  section:nth-of-type(2) .label-wrap > div {
-    padding: 0 15px;
-  }
-  section:nth-of-type(2) .bullet-wrap {
-    height: 230px;
-  }
-  section:nth-of-type(2) .skills-wrapper > .flex:first-child {
-    padding: 0 50px 0 50px;
-  }
-  section:nth-of-type(2) .skills-wrapper .me {
-    height: 250px;
-  }
-  section:nth-of-type(2) .bar {
-    font-size: 11pt;
-    height: 28px;
-    margin: 0 0 15px 0;
-  }
-  section:nth-of-type(2) .bar span {
-    display: initial;
-  }
-  section:nth-of-type(2) .bar .tag {
-    width: 110px;
-  }
-  section:nth-of-type(2) .hexagon i {
-    font-size: 40pt;
-  }
-  section:nth-of-type(3) .filter {
-    font-size: 11pt;
-    margin: 0 15px;
-    padding: 0 30px;
-  }
-  section:nth-of-type(3) .float-bar {
-    height: 30px;
-  }
-  section:nth-of-type(3) #gallery .mix .card {
-    height: 300px;
-  }
-  section:nth-of-type(4) {
-    padding: 130px 0 180px 0;
-  }
-  section:nth-of-type(4) .label {
-    font-size: 16pt;
-    line-height: 22pt;
-  }
-  section:nth-of-type(4) .date {
-    font-size: 8.5pt;
-  }
-  section:nth-of-type(4) .bar {
-    margin: 15px 0px;
-  }
-  section:nth-of-type(4) .text {
-    font-size: 11pt;
-    line-height: 15pt;
-  }
-  section:nth-of-type(4) .blog-wrap {
-    width: 400px;
-  }
-  section:nth-of-type(4) .thumb {
-    height: 200px;
-  }
-  section:nth-of-type(5) {
-    padding: 130px 0 180px 0;
-  }
-  section:nth-of-type(5) .label {
-    font-size: 16pt;
-    line-height: 22pt;
-  }
-  section:nth-of-type(5) .date {
-    font-size: 8.5pt;
-  }
-  section:nth-of-type(5) .bar {
-    margin: 15px 0px;
-  }
-  section:nth-of-type(5) .text {
-    font-size: 11pt;
-    line-height: 15pt;
-  }
-  section:nth-of-type(5) .blog-wrap {
-    width: 400px;
-  }
-  section:nth-of-type(5) .thumb {
-    height: 200px;
-  }
-  section:nth-of-type(6) form {
-    min-width: 500px;
   }
 }
 
@@ -297,51 +187,5 @@
     flex: 1 1 50%;
     max-height: 100%;
     max-width: 50%;
-  }
-
-  section:nth-of-type(2) .bars-wrap {
-    margin: 0 0 0 0;
-  }
-  section:nth-of-type(2) .skills-wrapper {
-    margin: 50px 0 0 0;
-  }
-  section:nth-of-type(2) .skills-wrapper .me {
-    margin: 0;
-  }
-  section:nth-of-type(2) .bar {
-    max-width: 90%;
-  }
-  section:nth-of-type(2) .bullet-wrap {
-    height: intial;
-    margin: 0;
-    padding: 0 10px;
-  }
-  section:nth-of-type(3) #gallery .mix .card {
-    width: 390px;
-  }
-  section:nth-of-type(3) .filter {
-    font-size: 13pt;
-    margin: 0 25px;
-    padding: 0 40px;
-  }
-  section:nth-of-type(4) .blog-wrap {
-    margin: 0 0 50px 20px;
-    opacity: 0;
-    width: 400px;
-  }
-  section:nth-of-type(5) .blog-wrap {
-    margin: 0 0 50px 20px;
-    opacity: 0;
-    width: 400px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  section:nth-of-type(4) .blog-wrap {
-    margin: 0 0 50px 20px;
-    width: 270px;
-  }
-  section:nth-of-type(5) .blog-wrap {
-    margin: 0 0 50px 20px;
-    max-width: 360px;
   }
 }
