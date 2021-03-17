@@ -11,7 +11,7 @@
       gtag('config', 'G-0EKKB980PT');
     </script>
     <title>Kamil Wiktorowski | wiktorowski.dev</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport">
 	<style>/* ---- reset ---- */ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; }
     /* ---- particles.js container ---- */
     #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #252934;
@@ -31,9 +31,9 @@
     <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet">
 
     <!-- LOCAL -->
-    <link rel="stylesheet" href="style/style.css">
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
-    <link rel=”stylesheet” href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>
+    <link href="style/style.css" rel="stylesheet">
+    <link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
+    <link crossorigin=”anonymous” href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” rel=”stylesheet”>
     <!-- HOSTED -->
     <script src="ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -56,8 +56,8 @@
     fbq('init', '1326468791045571');
     fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1326468791045571&ev=PageView&noscript=1"
+    <noscript><img height="1" src="https://www.facebook.com/tr?id=1326468791045571&ev=PageView&noscript=1" style="display:none"
+    width="1"
     /></noscript>
 
 
@@ -92,7 +92,7 @@
         </div>
       </div>
 
-      <section id="home" class="flex height-fix">
+      <section class="flex height-fix" id="home">
         <div id="particles-js"></div>
         <div class="flex">
           <div class="text">
@@ -109,7 +109,7 @@
             <div class="link-wrap">
               <div class="active page-link" dest="home">home</div>
               <div class="page-link" dest="about">about</div>
-              <div class="page-link" dest="portfolio">portfolio</div>
+              <div class="page-link" dest="projects">projects</div>
               <div class="page-link" dest="blog">blog</div>
               <div class="page-link" dest="services">services</div>
               <div class="page-link" dest="contact">contact</div>
@@ -187,16 +187,17 @@
           </div>
 
           <div class="skills-wrapper flex row-gt-sm">
-            <div id="me-photo-container" class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
-              <img src="img/me.png" class="me">
+            <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left" id="me-photo-container">
+              <img class="me" src="img/me.png">
               <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
               <div class="label bold">Who's this guy?</div>
-              <div>
-                Some great SEO text
+              <div class="about-me-text">
+                I am a software developer with experience in backend development, automation, and Machine Learning/Artificial Intelligence.
+My main interest is automatization/simplification of things.
               </div>
             </div>
 
-            <div id="skills" class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+            <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right" id="skills">
 
 
             </div>
@@ -205,24 +206,24 @@
       </section>
 
       <!-- PORTFOLIO -->
-      <section class="flex" id="portfolio">
+      <section class="flex" id="projects">
         <div class="header waypoint" data-animation="slide-in-right">
           PROJECTS
         </div>
         <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
 
-        <div id="project_slider" class="filter-wrap waypoint" data-animation="fade-in">
-          <div id="first-panel" class="flex row">
+        <div class="filter-wrap waypoint" data-animation="fade-in" id="project_slider">
+          <div class="flex row" id="first-panel">
             <div class="filter" data-filter="all">ALL</div>
           </div>
           <div class="float-bar">
-            <div id="second-panel" class="flex row">
+            <div class="flex row" id="second-panel">
               <div class="filter" data-filter="all">ALL</div>
             </div>
           </div>
         </div>
 
-        <div id="gallery" class="container flex row wrap waypoint">
+        <div class="container flex row wrap waypoint" id="gallery">
         </div>
       </section>
 
@@ -233,7 +234,7 @@
           <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
 
           <div class="flex row wrap">
-            <div id="blog_source" class="flex row-gt-sm">
+            <div class="flex row-gt-sm" id="blog_source">
 
             </div>
           </div>
@@ -248,7 +249,7 @@
 
           <div class="flex row wrap">
 
-            <div id="services_source" class="flex row-gt-sm">
+            <div class="flex row-gt-sm" id="services_source">
 
             </div>
 
@@ -258,7 +259,7 @@
 
       <!-- CONTACT -->
       <section id="contact">
-        <svg preserveaspectratio="none" viewbox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+        <svg class="svgcolor-light" height="75" preserveaspectratio="none" version="1.1" viewbox="0 0 100 102" width="100%" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 0 L50 100 L100 0 Z" fill="#f5f5f5" stroke="white"></path>
         </svg>
         <div class="container flex">
@@ -270,15 +271,15 @@
             Have a question or want to work together?
           </div>
           <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
-            <input placeholder="Name" type="text" name="name" required="">
-            <input placeholder="Enter email" type="email" name="email" required="">
-            <textarea placeholder="Your Message" type="text" name="message"></textarea>
+            <input name="name" placeholder="Name" required="" type="text">
+            <input name="email" placeholder="Enter email" required="" type="email">
+            <textarea class="textarea" name="message" placeholder="Your Message" type="text"></textarea>
             <div id="success">
               <div>
-                Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
+                Your message was sent successfully. Thanks!<span class="mdi mdi-close" id="close"></span>
               </div>
             </div>
-            <input class="button" type="submit" id="submit" value="SUBMIT">
+            <input class="button" id="submit" type="submit" value="SUBMIT">
           </form>
         </div>
       </section>
@@ -323,9 +324,9 @@
       count_particles = document.querySelector('.js-count-particles');
     </script>
 
-    <script src=”https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js” integrity=”sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo” crossorigin=”anonymous”></script>
+    <script crossorigin=”anonymous” integrity=”sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo” src=”https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js”></script>
 
-<script src=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js” integrity=”sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/” crossorigin=”anonymous”></script>
+<script crossorigin=”anonymous” integrity=”sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/” src=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js”></script>
 
   </body>
 </html>

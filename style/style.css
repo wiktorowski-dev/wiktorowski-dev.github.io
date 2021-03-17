@@ -115,12 +115,21 @@
     transform: scale(1);
   }
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
-
+.example::-webkit-scrollbar {
+  display: none;
+}
 body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
   color: #fff;
   font-family: "Raleway";
   font-size: 8pt;
@@ -131,6 +140,9 @@ body {
   text-align: center;
 }
 
+.textarea {
+  resize: none;
+}
 #preload {
   display: none;
 }
@@ -190,6 +202,7 @@ body {
 }
 
 .hexagon {
+  top: 24px;
   background-color: #04c2c9;
   display: inline-block;
   height: 100%;
@@ -545,7 +558,7 @@ section:nth-of-type(2) .hexagon i {
   left: 0;
   position: absolute;
   right: 0;
-  top: 20px;
+  top: 24px;
   z-index: 1;
 }
 section:nth-of-type(2) .bars-wrap {
@@ -976,7 +989,40 @@ footer .footnote .highlight {
       line-height: 18pt;
       padding: 100px 0 130px 0;
   }
+
+  .mdi-arrow-right {
+    top: 16px;
+  }
+  section:nth-of-type(2) .hexagon i {
+    top: 18px;
+  }
 }
+
+@media screen and (min-width: 670px) {
+  nav .link-wrap {
+    background: none;
+    height: initial;
+    overflow: visible;
+    position: initial;
+    text-align: left;
+  }
+  nav .link-wrap .visible {
+    height: initial;
+  }
+  nav .link-wrap div {
+    display: initial;
+    font-size: initial;
+    margin: 0 20px;
+    padding: initial;
+  }
+  nav .link-wrap div:first-child {
+    padding: 0;
+  }
+  nav .mdi-menu {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 600px) {
   body {
     font-size: 12pt;
@@ -1039,29 +1085,6 @@ footer .footnote .highlight {
     left: 25px;
   }
 
-  nav .link-wrap {
-    background: none;
-    height: initial;
-    overflow: visible;
-    position: initial;
-    text-align: left;
-  }
-  nav .link-wrap .visible {
-    height: initial;
-  }
-  nav .link-wrap div {
-    display: inline;
-    font-size: initial;
-    margin: 0 20px;
-    padding: initial;
-  }
-  nav .link-wrap div:first-child {
-    padding: 0;
-  }
-  nav .mdi-menu {
-    display: none;
-  }
-
   section .container {
     padding: 0 10px;
   }
@@ -1073,7 +1096,8 @@ footer .footnote .highlight {
     padding: 12px 50px 12px 20px;
   }
   section:nth-of-type(1) .button .mdi {
-    top: 16px;
+    /*top: 16px;*/
+
   }
   section:nth-of-type(2) .label-wrap .label {
     margin: 15px 0 5px 0;
@@ -1165,6 +1189,7 @@ footer .footnote .highlight {
     min-width: 500px;
   }
 }
+
 @media screen and (min-width: 960px) {
   .waypoint {
     opacity: 0;

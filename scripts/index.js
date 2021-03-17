@@ -20,7 +20,7 @@ $(function() {
   });
 
   // Sticky Nav on Mobile
-  if (isMobile) {
+  if (isMobile){
     $('nav').addClass('fixed');
   } else {
     $('nav').addClass('desk');
@@ -53,8 +53,8 @@ $(function() {
     if (pos2 > $('#about').offset().top) {
       highlightLink('about');
     }
-    if (pos2 > $('#portfolio').offset().top) {
-      highlightLink('portfolio');
+    if (pos2 > $('#projects').offset().top) {
+      highlightLink('projects');
     }
     if (pos2 > $('#blog').offset().top) {
       highlightLink('blog');
