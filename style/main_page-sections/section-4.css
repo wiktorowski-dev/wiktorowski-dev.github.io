@@ -15,17 +15,8 @@
 }
 .section-4 .blog-wrap {
   cursor: pointer;
-  margin: 0 0 50px 0;
-  padding: 0 2px;
-  width: 100%;
 }
-.section-4 .blog-wrap .fade-wrap {
-  transition: opacity 0.3s;
-}
-.section-4 .blog-wrap.fade .fade-wrap {
-  opacity: 0.4;
-}
-.section-4 .blog-wrap.hover .fade-wrap .label {
+.section-4 .blog-wrap.hover .HomeProjects-item-caption-title {
   color: #04c2c9;
 }
 .section-4 .label {
@@ -72,25 +63,7 @@
     font-size: 11pt;
     line-height: 15pt;
   }
-  .section-4 .blog-wrap {
-    width: 400px;
-  }
   .section-4 .thumb {
     height: 200px;
-  }
-}
-
-@media screen and (min-width: 960px) {
-    .section-4 .blog-wrap {
-        margin: 0 0 50px 20px;
-        opacity: 0;
-        width: 400px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .section-4 .blog-wrap {
-    margin: 0 0 50px 20px;
-    width: 270px;
   }
 }
