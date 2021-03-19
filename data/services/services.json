@@ -1,14 +1,14 @@
 [
   {
     "title": "Web scraping",
-    "text": "Some SEO for the offer",
+    "text": "Scraping any website, starting from $10. Fast and precise",
     "href": "https://www.fiverr.com/wiktorowski_dev/do-a-web-scraper-for-you",
     "img": "data/services/img/webscraping.png"
   },
   {
     "title": "File conversion",
-    "text": "Some SEO for the offer",
     "href": "https://www.fiverr.com/wiktorowski_dev/convert-transform-or-clean-any-text-file-format",
+    "text": "Convert your files, extract data or do any transformation",
     "img": "data/services/img/fileconversion.png"
 
   }
