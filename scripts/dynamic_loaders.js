@@ -98,42 +98,42 @@ $.ajax({
 });
 
 // Blog loader
-$.ajax({
-    url: 'data/blog/blog.json',
-    dataType: 'json',
-    success: function(data) {
-        var blog_source = $('#blog_source');
-        blog_source.empty()
-
-        for (let i=0; i<data.length; i++) {
-            var date = data[i].date
-            var img = data[i].img
-            var title = data[i].title
-            var text = data[i].text
-            var href = data[i].href
-
-            blog_source.append(
-
-                '<div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s">' +
-                '<a href="' + href + '" target="_blank">' +
-                '<div class="fade-wrap">' +
-                '<div class="thumb"></div>' +
-                '<div class="label bold">' + title + '</div>' +
-                '<div class="date">' + date + '</div>' +
-                '<div class="bar"></div>' +
-                '<div class="text">' + text +
-                '</div>' +
-                '</div>' +
-                '</a>' +
-                '</div>'
-            );
-
-            blog_source[0].children[i].getElementsByClassName('thumb')[0].setAttribute("style", "background: url(" + img + ") center center/cover")
-
-
-        }
-    }
-});
+// $.ajax({
+//     url: 'data/blog/blog.json',
+//     dataType: 'json',
+//     success: function(data) {
+//         var blog_source = $('#blog_source');
+//         blog_source.empty()
+//
+//         for (let i=0; i<data.length; i++) {
+//             var date = data[i].date
+//             var img = data[i].img
+//             var title = data[i].title
+//             var text = data[i].text
+//             var href = data[i].href
+//
+//             blog_source.append(
+//
+//                 '<div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s">' +
+//                 '<a href="' + href + '" target="_blank">' +
+//                 '<div class="fade-wrap">' +
+//                 '<div class="thumb"></div>' +
+//                 '<div class="label bold">' + title + '</div>' +
+//                 '<div class="date">' + date + '</div>' +
+//                 '<div class="bar"></div>' +
+//                 '<div class="text">' + text +
+//                 '</div>' +
+//                 '</div>' +
+//                 '</a>' +
+//                 '</div>'
+//             );
+//
+//             blog_source[0].children[i].getElementsByClassName('thumb')[0].setAttribute("style", "background: url(" + img + ") center center/cover")
+//
+//
+//         }
+//     }
+// });
 
 // Services loader
 $.ajax({
