@@ -206,3 +206,16 @@ $(function() {
     $('#success').removeClass('expand');
   });
 });
+
+// Animated arrow
+$('.arrow-span').hover(function (){
+  $('.blog-arrow').css("transform", "translateX(5px)");
+  $('.arrow-span').css("color", "#04c2c9");
+  },
+    function () {
+  $('.blog-arrow').css("transform", "translateX(0px)");
+  $('.arrow-span').css("color", "");}
+  )
+
+// Blog reference positioning
+

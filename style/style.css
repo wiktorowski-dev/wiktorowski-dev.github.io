@@ -466,5 +466,15 @@ footer .footnote .highlight {
 .about-me-text {
   line-height: 1.2;
 }
+.blog-arrow {
+  transition: transform .15s ease-out;
+}
+.text {
+  line-height: 1;
+}
+/*.blog-arrow:hover {*/
+/*  transform: translateX(5px);*/
+/*}*/
+
 
 /*# sourceMappingURL=style.css.map */
