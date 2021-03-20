@@ -472,9 +472,22 @@ footer .footnote .highlight {
 .text {
   line-height: 1;
 }
-/*.blog-arrow:hover {*/
-/*  transform: translateX(5px);*/
-/*}*/
 
+.HomeProjects-item-image img {
+    width: 400px !important;
+    height: 300px !important;
+}
 
-/*# sourceMappingURL=style.css.map */
+.HomeProjects-item {
+    width: 400px !important;
+    height: 600px !important;
+}
+
+.HomeProjects-item-caption-date {
+    padding-top: 10px;
+}
+
+.HomeProjects-item-caption-description {
+    font-size: 15px ;
+}
+

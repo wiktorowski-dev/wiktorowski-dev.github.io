@@ -98,43 +98,49 @@ $.ajax({
 });
 
 // Blog loader
-// $.ajax({
-//     url: 'data/blog/blog.json',
-//     dataType: 'json',
-//     success: function(data) {
-//         var blog_source = $('#blog_source');
-//         blog_source.empty()
-//
-//         for (let i=0; i<data.length; i++) {
-//             var date = data[i].date
-//             var img = data[i].img
-//             var title = data[i].title
-//             var text = data[i].text
-//             var href = data[i].href
-//
-//             blog_source.append(
-//
-//                 '<div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s">' +
-//                 '<a href="' + href + '" target="_blank">' +
-//                 '<div class="fade-wrap">' +
-//                 '<div class="thumb"></div>' +
-//                 '<div class="label bold">' + title + '</div>' +
-//                 '<div class="date">' + date + '</div>' +
-//                 '<div class="bar"></div>' +
-//                 '<div class="text">' + text +
-//                 '</div>' +
-//                 '</div>' +
-//                 '</a>' +
-//                 '</div>'
-//             );
-//
-//             blog_source[0].children[i].getElementsByClassName('thumb')[0].setAttribute("style", "background: url(" + img + ") center center/cover")
-//
-//
-//         }
-//     }
-// });
-//
+$.ajax({
+    url: 'data/blog/blog.json',
+    dataType: 'json',
+    success: function(data) {
+        var blog_source = $('.HomeProjects-display');
+        blog_source.empty()
+        blog_source.append('<div class="HomeProjects-size"></div>')
+        for (let i=0; i<data.length; i++) {
+            var date = data[i].date;
+            var img = data[i].img;
+            var title = data[i].title;
+            var text = data[i].text;
+            var href = data[i].href;
+            var alt = 'test';
+            blog_source.append(
+
+
+                 '<a class="HomeProjects-item blog-wrap" href="' + href + '">' +
+                                '<div class="HomeProjects-item-display">' +
+                                    '<div class="HomeProjects-item-image" role="figure">' +
+                                        '<img data-src="' + img + '"' +
+                                             'data-image="' + img + '"' +
+                                             'data-image-dimensions="2500x3536" data-image-focal-point="0.5,0.5"' +
+                                             'alt="' + alt + '" data-load="false">' +
+                                   '</div>' +
+                                    '<div class="HomeProjects-item-caption">' +
+                                        '<span class="HomeProjects-item-caption-index" data-index="' + i+1 + '"></span>' +
+                                        '<span class="HomeProjects-item-caption-title">' + title + '</span>' +
+                                        '<span class="HomeProjects-item-caption-date">' + date + '</span>' +
+                                        '<div class="bar"></div>' +
+                                        '<span class="HomeProjects-item-caption-description">' + text + '</span>' +
+                                    '</div>' +
+                                '</div>' +
+                            '</a>'
+            );
+
+            // blog_source[0].children[i].getElementsByClassName('thumb')[0].setAttribute("style", "background: url(" + img + ") center center/cover")
+
+
+        }
+    }
+});
+
 // Services loader
 $.ajax({
     url: 'data/services/services.json',

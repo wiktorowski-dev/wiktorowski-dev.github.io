@@ -232,3 +232,13 @@ $(window).ready(function() {
   $('.HomeProjects-footer').css('transform', 'translateY(-140px)')
   console.log(height-450)
 });
+//
+// $('.HomeProjects-item').hover(function ()
+// {
+//   $('.HomeProjects-item-button').css('background', '#e31b6d')
+//   $('.HomeProjects-item-button').css('color', '#fff')
+// }, function ()
+// {
+//   $('.HomeProjects-item-button').css('background', '')
+//   $('.HomeProjects-item-button').css('color', '')
+// })

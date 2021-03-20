@@ -1039,8 +1039,8 @@
                         t.win.width = window.innerWidth, t.win.height = window.innerHeight, t.win.max = Math.max(t.win.width, t.win.height), t.list.props.spacing = t.isGhostMode ? {
                             value: -Math.min(20, .05 * t.win.width),
                             unit: "px"
-                        } : t.win.width > 1024 ? {value: 120, unit: "px"} : {
-                            value: 30,
+                        } : t.win.width > 1024 ? {value: 48, unit: "px"} : {
+                            value: 16,
                             unit: "px"
                         }, t.list.setSize(t.getSlideshowDimensions()), t.resizeItems(), t.updatePositions()
                     })), ke(Se(t), "onProgress", (function (e) {
@@ -1105,11 +1105,11 @@
                             var i = e.querySelector("img"),
                                 a = n % 2 == 0 ? .1 + .2 * Math.random() : .1 * Math.random();
                             return be(be({}, r ? be({}, t.getImageDimensions(i)) : {
-                                width: 800,
-                                height: 600
+                                width: 500,
+                                height: 700
                             }), {}, {
                                 index: n,
-                                scale: 1 - a,
+                                scale: 1,
                                 node: e,
                                 imageNode: r,
                                 isImageLoadAdded: !1,

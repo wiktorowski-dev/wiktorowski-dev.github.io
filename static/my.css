@@ -169,7 +169,7 @@ html:not([data-js-focus-visible]) .sqs-product-quick-view-button-wrapper .sqs-pr
     top: 50%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
     max-width: 100%;
     max-height: 100%;
     user-select: none;
@@ -183,13 +183,15 @@ html:not([data-js-focus-visible]) .sqs-product-quick-view-button-wrapper .sqs-pr
 }
 
 .HomeProjects-item-caption {
+    padding: 10px;
     width: auto;
     justify-content: center;
     position: relative;
     padding-top: 1rem;
     display: flex;
+    flex-direction: column;
     font-family: "Scto Grotesk A Regular", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    white-space: pre;
+    /*white-space: pre;*/
 }
 
 .HomeProjects-item-caption-index {
@@ -199,7 +201,7 @@ html:not([data-js-focus-visible]) .sqs-product-quick-view-button-wrapper .sqs-pr
 }
 
 .HomeProjects-item-caption-title {
-    text-align: center;
+    text-align: left;
     flex-grow: 1;
     flex-shrink: 1;
     font-size: 1.5rem;
@@ -213,9 +215,9 @@ html:not([data-js-focus-visible]) .sqs-product-quick-view-button-wrapper .sqs-pr
 }
 
 @media screen and (max-width: 575px ) {
-    .HomeProjects-item-caption-title {
-        font-size: .9rem
-    }
+    /*.HomeProjects-item-caption-title {*/
+    /*    font-size: .9rem*/
+    /*}*/
 }
 
 .HomeProjects-item-image {
@@ -229,6 +231,8 @@ html:not([data-js-focus-visible]) .sqs-product-quick-view-button-wrapper .sqs-pr
 }
 
 .HomeProjects-item img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     display: block;
     width: 100%;
     height: 100%;
