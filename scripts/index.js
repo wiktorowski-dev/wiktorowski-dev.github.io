@@ -219,3 +219,16 @@ $('.arrow-span').hover(function (){
 
 // Blog reference positioning
 
+$(window).resize(function() {
+  var height = $(window).height();
+  $('.section-4').css('max-height', height-70+'px');
+  $('.HomeProjects-footer').css('transform', 'translateY(-140px)')
+  console.log(height-450)
+});
+
+$(window).ready(function() {
+  var height = $(window).height();
+  $('.section-4').css('max-height', height-70+'px');
+  $('.HomeProjects-footer').css('transform', 'translateY(-140px)')
+  console.log(height-450)
+});

@@ -261,7 +261,7 @@ html:not([data-js-focus-visible]) .sqs-product-quick-view-button-wrapper .sqs-pr
 
 
 .HomeProjects-footer {
-    transform: translateY(-200px);
+    /*transform: translateY(-200px);*/
     width: 100%;
     flex-grow: 0;
     flex-shrink: 0;
