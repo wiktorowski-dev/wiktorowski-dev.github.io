@@ -20,6 +20,8 @@
   transform: rotate(540deg);
 }
 .section-1 .button {
+  display: grid;
+  align-items: center;
   margin-bottom: 53px;
   padding: 12px 40px 12px 15px;
   position: relative;
@@ -27,7 +29,6 @@
 .section-1 .button .mdi {
   position: absolute;
   right: 15px;
-  top: 11px;
   transition: transform 0.3s;
 }
 .section-1 .button:hover .mdi {
@@ -41,9 +42,5 @@
   }
   .section-1 .button {
     padding: 12px 50px 12px 20px;
-  }
-  .section-1 .button .mdi {
-    /*top: 16px;*/
-
   }
 }
