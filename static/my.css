@@ -266,7 +266,8 @@ html:not([data-js-focus-visible]) .sqs-product-quick-view-button-wrapper .sqs-pr
     flex-grow: 0;
     flex-shrink: 0;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .HomeProjects-footer-display {
